@@ -2,8 +2,10 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 
-function Nav(props) {
+function Nav() {
 
+    // let {user} = this.props;
+    
     return(
         <div>
         <div>Nav</div>
@@ -24,5 +26,12 @@ function Nav(props) {
     )
 }
 
+// function mapStateToProps(state) {
+//     return{
+//         user: state.user,
+//     }
+// }
 
-export default Nav
+export default Nav;
+//  connect(mapStateToProps)(Nav);
+
